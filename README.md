@@ -26,6 +26,7 @@ This section consolidates all user research, comparative benchmarking, interacti
 | **Exp 4** | **High-Fidelity Prototype** | Interactive, clickable mobile prototype built with atomic design principles, blue-and-white trust palette, and tactile feedback. <br>📄 [Read Experiment 4 Report](end_sem_experiments/Experiment_4_High_Fidelity_Prototype.md) | 🚀 [**Figma High-Fidelity Prototype**](https://www.figma.com/make/CpR0Y42O2zsWY5OxRJcAEZ/MalhotraUPI-Payment-App?t=PH54n6CDbVu1b8av-1) |
 | **Exp 5** | **Heuristic Evaluation** | Formal evaluation of MalhotraUPI against 15 Interaction Design Heuristics. Total severity score: 29/75 with focus on error prevention and privacy. <br>📄 [Read Experiment 5 Report](end_sem_experiments/Experiment_5_Heuristic_Evaluation.md) | [Word Report](survey_data/UIUX_Assignment_5_Heuristic_Evaluation.docx) |
 | **Exp 6** | **Usability Testing with Maze** | Unmoderated remote testing with 6 participants over 5 core missions (M1-M5). Quantitative success metrics, heatmaps, and bug fixes. <br>📄 [Read Experiment 6 Report](end_sem_experiments/Experiment_6_Maze_Usability_Testing.md) | [Word Report](survey_data/UIUX_Assignment_6_Maze_Usability_Testing.docx) |
+| **Exp 7** | **Accessible Redesign (WCAG 2.2)** | Inclusive redesign for users with visual, motor, and cognitive needs. Evaluated with WCAG 2.2 Level AA checklist, high contrast tokens ($6.6:1+$), and switch access. <br>📄 [Read Experiment 7 Report](end_sem_experiments/Experiment_7_Accessible_Redesign_WCAG.md) | ♿ [**Figma Accessible Prototype**](https://www.figma.com/proto/MalhotraUPI-Accessible-v7) \| [Word Report](survey_data/UIUX_Assignment_7_Accessible_Redesign.docx) |
 
 ---
 
@@ -78,12 +79,14 @@ MalhotraUPI-UIUXventure/
 │   ├── UIUX_Assignment_1_Website_Comparison.xlsx
 │   ├── UIUX_Assignment_2_Personas_and_User_Journeys.pptx
 │   ├── UIUX_Assignment_5_Heuristic_Evaluation.docx
-│   └── UIUX_Assignment_6_Maze_Usability_Testing.docx
+│   ├── UIUX_Assignment_6_Maze_Usability_Testing.docx
+│   └── UIUX_Assignment_7_Accessible_Redesign.docx
 └── /end_sem_experiments                                          # Detailed experiment documentation and findings
     ├── Experiment_1_Critical_Analysis_3_Website_Comparison.md
     ├── Experiment_2_Personas_and_User_Journeys.md
     ├── Experiment_3_Low_Fidelity_Prototype.md
     ├── Experiment_4_High_Fidelity_Prototype.md
     ├── Experiment_5_Heuristic_Evaluation.md
-    └── Experiment_6_Maze_Usability_Testing.md
+    ├── Experiment_6_Maze_Usability_Testing.md
+    └── Experiment_7_Accessible_Redesign_WCAG.md
 ```
