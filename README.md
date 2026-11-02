@@ -66,13 +66,36 @@ As a next step, test both MalhotraUPI and Paytm with a small group of users perf
 
 ---
 
+## Think Aloud Usability Audio Recordings & Transcripts
+
+Raw audio recordings of think-aloud evaluation sessions and their full speech-to-text transcriptions:
+
+| Session | Speaker / Participant | Topic / Evaluation Focus | Audio Recording | Text Transcript |
+| :---: | :--- | :--- | :--- | :--- |
+| **01** | **Jay** | Interaction Design, Button Feedback & Transaction Flow | 🎙️ [Listen](audio_files/Think_Aloud_Session_1_Jay_Interaction_and_Animations.ogg) | 📄 [View](transcripts/think_aloud_transcripts.md#session-1-jay--interaction-design--micro-interactions) |
+| **02** | **Debanshi Bhatnagar** | Navigation Structure & Feature Discoverability | 🎙️ [Listen](audio_files/Think_Aloud_Session_2_Debanshi_Bhatnagar_Navigation_Structure.ogg) | 📄 [View](transcripts/think_aloud_transcripts.md#session-2-debanshi-bhatnagar--navigation-structure--feature-discoverability) |
+| **03** | **Jashna Gupta** (PRN: 1262243103) | Architecture & Design Philosophy Conclusion | 🎙️ [Listen](audio_files/Think_Aloud_Session_3_Jashna_Gupta_Design_Philosophy_Conclusion.ogg) | 📄 [View](transcripts/think_aloud_transcripts.md#session-3-jashna-gupta--architecture--design-philosophy-conclusion) |
+| **04** | **Aditi** (PRN: 555) | Visual Design, Trust Blue Palette & Branding | 🎙️ [Listen](audio_files/Think_Aloud_Session_4_Aditi_Visual_Design_and_Branding.ogg) | 📄 [View](transcripts/think_aloud_transcripts.md#session-4-aditi--visual-design-color-palette--branding-trust) |
+| **05** | **Suraj Singh** | Comparative Evaluation: MalhotraUPI vs. Paytm | 🎙️ [Listen](audio_files/Think_Aloud_Session_5_Suraj_Singh_Paytm_vs_MalhotraUPI.ogg) | 📄 [View](transcripts/think_aloud_transcripts.md#session-5-suraj-singh--comparative-evaluation-paytm-vs-malhotraupi) |
+
+- **Complete Combined Transcripts:** [think_aloud_transcripts.md](transcripts/think_aloud_transcripts.md) \| [think_aloud_transcripts.txt](transcripts/think_aloud_transcripts.txt)
+
+---
+
 ## Repository Structure
 
 ```
 MalhotraUPI-UIUXventure/
-├── README.md                                                     # Student details, CCA2, LCA3 index, and Final Conclusion report
-├── /audio_files                                                  # Raw audio recording of the Think Aloud session
-├── /transcripts                                                  # Text file of the speech-to-text conversion
+├── README.md                                                     # Student details, CCA2, LCA3 index, Think Aloud index, Conclusion
+├── /audio_files                                                  # Raw audio recordings of Think Aloud sessions
+│   ├── Think_Aloud_Session_1_Jay_Interaction_and_Animations.ogg
+│   ├── Think_Aloud_Session_2_Debanshi_Bhatnagar_Navigation_Structure.ogg
+│   ├── Think_Aloud_Session_3_Jashna_Gupta_Design_Philosophy_Conclusion.ogg
+│   ├── Think_Aloud_Session_4_Aditi_Visual_Design_and_Branding.ogg
+│   └── Think_Aloud_Session_5_Suraj_Singh_Paytm_vs_MalhotraUPI.ogg
+├── /transcripts                                                  # Text files of speech-to-text conversion
+│   ├── think_aloud_transcripts.md
+│   └── think_aloud_transcripts.txt
 ├── /survey_data                                                  # Exercise & practical source files (Excel, Word, PPT)
 │   ├── Final_Conclusion_Report.docx
 │   ├── UIUX_Assignment_1_Critical_Analysis_of_Interfaces.docx
