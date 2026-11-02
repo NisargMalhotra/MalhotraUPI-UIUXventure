@@ -4,6 +4,7 @@
 - **Name:** Nisarg Malhotra
 - **Roll Number:** 29
 - **PRN:** 1262243207
+- **Class / Batch:** TY AI_DS Panel-F, Batch-F2
 
 ---
 
@@ -15,7 +16,16 @@
 
 ## LCA3: Experiments & Deliverables
 
-*(Experiment files and documentation will be listed here)*
+This section consolidates all user research, comparative benchmarking, interactive prototyping, heuristic evaluations, and empirical usability test findings conducted for the **MalhotraUPI** venture.
+
+| Experiment | Title | Description & Artifact Links | Figma / Deliverable Link |
+| :---: | :--- | :--- | :--- |
+| **Exp 1** | **Critical Analysis of Interfaces** | 18-parameter heuristic benchmark comparing Google Pay, PhonePe, and Paytm. Evaluates learnability, visual clutter, error recovery, and transaction efficiency. <br>📄 [Read Experiment 1 Report](end_sem_experiments/Experiment_1_Critical_Analysis_3_Website_Comparison.md) | [Excel Matrix](survey_data/UIUX_Assignment_1_Website_Comparison.xlsx) \| [Docx](survey_data/UIUX_Assignment_1_Critical_Analysis_of_Interfaces.docx) |
+| **Exp 2** | **Personas & User Journey Mapping** | 5 core target user personas (Vendor, Homemaker, Student, Shopkeeper, Migrant Worker), empathy mapping (Says, Thinks, Does, Feels), and pain point analysis. <br>📄 [Read Experiment 2 Report](end_sem_experiments/Experiment_2_Personas_and_User_Journeys.md) | [Presentation Deck](survey_data/UIUX_Assignment_2_Personas_and_User_Journeys.pptx) |
+| **Exp 3** | **Low-Fidelity Prototype** | Architectural wireframing and user flow mapping across Home, Scan & Pay, Send Money, Review, and History. <br>📄 [Read Experiment 3 Report](end_sem_experiments/Experiment_3_Low_Fidelity_Prototype.md) | 🎨 [**Figma Low-Fidelity Design**](https://www.figma.com/design/mt5CzPY5XDWP0R0Gq3zi0j/malhotraupi?node-id=0-1&t=pAU8XmYZVACGX8YA-1) |
+| **Exp 4** | **High-Fidelity Prototype** | Interactive, clickable mobile prototype built with atomic design principles, blue-and-white trust palette, and tactile feedback. <br>📄 [Read Experiment 4 Report](end_sem_experiments/Experiment_4_High_Fidelity_Prototype.md) | 🚀 [**Figma High-Fidelity Prototype**](https://www.figma.com/make/CpR0Y42O2zsWY5OxRJcAEZ/MalhotraUPI-Payment-App?t=PH54n6CDbVu1b8av-1) |
+| **Exp 5** | **Heuristic Evaluation** | Formal evaluation of MalhotraUPI against 15 Interaction Design Heuristics. Total severity score: 29/75 with focus on error prevention and privacy. <br>📄 [Read Experiment 5 Report](end_sem_experiments/Experiment_5_Heuristic_Evaluation.md) | [Word Report](survey_data/UIUX_Assignment_5_Heuristic_Evaluation.docx) |
+| **Exp 6** | **Usability Testing with Maze** | Unmoderated remote testing with 6 participants over 5 core missions (M1-M5). Quantitative success metrics, heatmaps, and bug fixes. <br>📄 [Read Experiment 6 Report](end_sem_experiments/Experiment_6_Maze_Usability_Testing.md) | [Word Report](survey_data/UIUX_Assignment_6_Maze_Usability_Testing.docx) |
 
 ---
 
@@ -58,9 +68,22 @@ As a next step, test both MalhotraUPI and Paytm with a small group of users perf
 ## Repository Structure
 
 ```
-├── README.md            # Student details, CCA2 Figma links, and Final Conclusion report
-├── /audio_files         # Raw audio recording of the Think Aloud session
-├── /transcripts         # Text file of the speech-to-text conversion
-├── /survey_data         # All previous exercises/practical data: Word, Excel, PDF files associated with this website
-└── /end_sem_experiments # Subfolder containing your end-semester experiment files
+MalhotraUPI-UIUXventure/
+├── README.md                                                     # Student details, CCA2, LCA3 index, and Final Conclusion report
+├── /audio_files                                                  # Raw audio recording of the Think Aloud session
+├── /transcripts                                                  # Text file of the speech-to-text conversion
+├── /survey_data                                                  # Exercise & practical source files (Excel, Word, PPT)
+│   ├── Final_Conclusion_Report.docx
+│   ├── UIUX_Assignment_1_Critical_Analysis_of_Interfaces.docx
+│   ├── UIUX_Assignment_1_Website_Comparison.xlsx
+│   ├── UIUX_Assignment_2_Personas_and_User_Journeys.pptx
+│   ├── UIUX_Assignment_5_Heuristic_Evaluation.docx
+│   └── UIUX_Assignment_6_Maze_Usability_Testing.docx
+└── /end_sem_experiments                                          # Detailed experiment documentation and findings
+    ├── Experiment_1_Critical_Analysis_3_Website_Comparison.md
+    ├── Experiment_2_Personas_and_User_Journeys.md
+    ├── Experiment_3_Low_Fidelity_Prototype.md
+    ├── Experiment_4_High_Fidelity_Prototype.md
+    ├── Experiment_5_Heuristic_Evaluation.md
+    └── Experiment_6_Maze_Usability_Testing.md
 ```
